@@ -1,0 +1,12 @@
+git config --global user.name "Your Name"
+git config --global user.email "abc@example.com"
+touch .gitignore #here specify the files you want to ignore
+git init # a hidden git folder will be made
+git add . #
+git commit -m "Initial commit"
+git status
+ssh -keygen......."abc@example.com"
+generate the ssh key and it to your github account
+git remote add origin <ssh url.git>
+git push origin master
+
